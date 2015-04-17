@@ -1,0 +1,23 @@
+{
+    "name": "zjango/laracurl",
+    "description": "Laravel 5.0 Package Wrapper For Andreas Lutro's OOP cURL Class",
+    "keywords": ["framework", "laravel", "curl", "Laracurl"],
+    "license": "MIT",
+    "versions":"1.1.1",
+    "authors": [
+        {
+            "name": "zjango",
+            "email": "zjango@icloud.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zjango\\Laracurl\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+
+    "minimum-stability": "dev"
+}
