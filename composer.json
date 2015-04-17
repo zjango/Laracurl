@@ -3,6 +3,7 @@
     "description": "Laravel 5.0 Package Wrapper For Andreas Lutro's OOP cURL Class",
     "keywords": ["framework", "laravel", "curl", "Laracurl"],
     "license": "MIT",
+    "versions":"1.1.1",
     "authors": [
         {
             "name": "zjango",
