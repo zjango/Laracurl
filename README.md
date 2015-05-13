@@ -26,8 +26,7 @@ Run the usual `composer update` to pull the files.  Then, add the following **Se
 And finally add a new line to the aliases array:
 
 ```php
-		'Laracurl'	=>	'Zjango\Laracurl\Facades\Laracurl'
-,
+		'Laracurl'	=>	'Zjango\Laracurl\Facades\Laracurl',
 ```
 
 # Usage
