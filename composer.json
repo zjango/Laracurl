@@ -10,9 +10,9 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "Zjango\\Laracurl\\": "src/"
-        }
+        "classmap": [
+            "src/Zjango"
+            ]
     },
     "config": {
         "preferred-install": "dist"
