@@ -183,7 +183,9 @@ class Laracurl {
 		$result = curl_exec($this->ch);
 
 		if ($result === false) {
-			throw new \RuntimeException("cURL request failed with error: " . curl_error($this->ch));
+			\Log::warning("cURL request failed with error: " . curl_error($this->ch));
+			return false;
+			// throw new \RuntimeException("cURL request failed with error: " . curl_error($this->ch));
 		}
 
 		$response = $this->createResponseObject($result);
